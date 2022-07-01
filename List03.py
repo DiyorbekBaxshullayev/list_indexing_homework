@@ -7,4 +7,9 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    return list1+list2
+
+x1=[1,2,3,4,5]
+x2=[9,8,7,6]    
+
+print(main(x1,x2))
