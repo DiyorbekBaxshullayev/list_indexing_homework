@@ -1,3 +1,6 @@
+from re import I
+
+
 def main(list1,i):
     """
     A list of several elements is given. i Return the item in the index.
@@ -7,4 +10,9 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+    return list1[i]
+
+i=3
+x=[5,6,7,9]
+
+print(main(x,i))
