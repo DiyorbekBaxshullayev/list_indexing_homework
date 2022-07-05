@@ -6,4 +6,18 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i=0
+    list2=[]
+    while i<len(list1):
+        if list1[i]==1:
+            list2.append(True)
+
+        elif list1[i]==0:
+            list2.append(False)
+
+        i+=1
+    
+    return list2
+
+a=[1,1,0,1,0,1]
+print(main(a))
