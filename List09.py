@@ -9,15 +9,14 @@ def main(list1):
     i=0
     x=[]
     while i<len(list1):
-        if list1[i]==list1:
-            x.append(True)
+        if list1[i]==list1[1]:
+            x.append(list1[i])
 
-        else:
-            x.append(False)
+     
 
         i+=1
 
     return x==list1
 
-a=[1,1,1,1]
+a=['b','b','a']
 print(main(a))
