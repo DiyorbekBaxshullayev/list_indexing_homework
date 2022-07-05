@@ -6,4 +6,18 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i=0
+    x=[]
+    while i<len(list1):
+        if list1[i]==list1:
+            x.append(True)
+
+        else:
+            x.append(False)
+
+        i+=1
+
+    return x==list1
+
+a=[1,1,1,1]
+print(main(a))
