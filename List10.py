@@ -6,13 +6,14 @@ def main(list_num):
     Returns:
         int: return answer
     """
+    i=0
     if list_num[0]>list_num[-1]:
-        print(list_num[0])
+        i+=list_num[0]
 
     elif list_num[0]<list_num[-1]:
-        print(list_num[-1])
+        i+=list_num[-1]
     
-    return list_num
+    return i
 
 a=[8,2,3,4,5]
 print(main(a))
